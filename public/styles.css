@@ -1,0 +1,300 @@
+.arrival-class{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 50px;
+    
+}
+.genderclass{
+    height: 35rem;
+    width: 28rem;
+    margin-top: 50px;
+    z-index: 0;
+    
+}
+.gendersymbol{
+    position: relative;
+    display: inline;
+    bottom: 100px;
+    left: 10rem;
+    z-index: 1;
+    color: white;
+    background-color: black;
+}
+.storeclass{
+    height: 23rem;
+    width: 21rem;
+    margin: 50px 0 0 0;
+    z-index: 0;
+
+    
+}
+.storesymbol{
+    position: relative;
+    display: inline;
+    left: 100px;
+    bottom: 100px;
+    z-index: 1;
+    color: white;
+    background-color: black;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 40px;
+    padding: 0;
+    
+  }
+
+
+  p.foot{
+    color: white;
+  }
+
+.leftaboveFooter{
+    margin: 30px 0 0 50px;
+    display: inline-block
+}
+.rightaboveFooter{
+    display: inline-block;
+    margin-left: 60rem
+}
+
+  footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-top: 50px;
+    margin-top: 5rem;
+   
+  }
+ .foot.subscribe {
+    margin-top: 30px;
+
+ }
+ a, a:link, a:visited {
+  color: grey;
+  text-decoration: none;
+  
+}
+.no-bullets a:hover{
+  color: white;
+}
+.d-flex{
+  margin: 0;
+}
+
+.itemclass  {
+  font-size: 20px;
+  color: white;
+  margin: 0 40px 0;
+  position: relative;
+  left: 200px;
+  padding:0
+}
+
+.dividerclass{
+  background-color: white;
+  color: white;
+  height: 100%;
+}
+
+.itemclass:hover  {
+ color: white;
+}
+/* new page arrival page styling */
+
+.newarrival-itemlist{
+  display: inline-block;
+  position: absolute;
+    width: 83%;
+   
+}
+.newarrival-filter{
+  display: inline-block;
+  position: sticky;
+  height: 1000px;
+  width: 17%;
+
+
+}
+.arrival-page-col{
+  position: relative;
+  top: 100px;
+  
+  padding-bottom: 70px ;
+}
+
+form{
+  margin-top: 50px;
+}
+
+.newarrival-filter input,label{
+  font-size: 13px;
+  position:relative;
+  top:30px; 
+  left:30px;
+  text-align: left;
+  color:grey;
+  padding: 7px;
+}
+.form{
+  margin-top: 50px;
+  position: relative;
+   top: 30px;
+   left: 30px;
+   text-align: left
+}
+
+#basic-nav-dropdown{
+  padding: 0;
+ 
+}
+
+/* dropdown code */
+
+/* Dropdown Button */
+
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+  
+  
+} */
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 49.5rem;
+  top: 3.3rem;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 55px 55px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content-footwear {
+  display: none;
+  position: absolute;
+  left: 39.5rem;
+  top: 3.3rem;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 55px 55px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content .dropdownclass {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-footwear .dropdownclass {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block
+}
+/* Change color of dropdown links on hover */
+.dropdown-content .dropdownclass:hover {background-color: lightgray; color: black;}
+.dropdown-content-footwear .dropdownclass:hover {background-color: lightgray; color: black;}
+
+/* Show the dropdown menu on hover */
+.dropbtn:hover ~ .dropdown-content {display: block;}
+.dropdown-content:hover {display: block;}
+.dropbtn-footwear:hover ~ .dropdown-content-footwear {display: block;}
+.dropdown-content-footwear:hover {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.header-form{
+ 
+  margin: 0;
+  position: relative;
+  right: 20px;
+  
+  
+}
+.header-input{
+  border-radius: 10px;
+  border: 0;
+  width: 20rem;
+  height: 2rem;
+  padding-left: 8px;
+}
+
+/* user component styling */
+
+.flex-container{
+  display: flex;
+
+  text-align: left;
+}
+.loginbutton:hover{
+background-color: black;
+
+}
+.btn-secondary{
+  position:relative;
+  top:7rem;
+  left:11rem;
+  margin-top:15px;
+  width:15rem;
+  background-color:grey;
+  color:white;
+  border: grey
+}
+.btn-secondary:hover{
+  background-color: black !important;
+}
+.google-btn {
+  display:block;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 11rem;
+  left: 12rem;
+  color: white;
+  background-color: darkred;
+  border-radius: 50%;
+  border: 1px solid darkred;
+  
+}
+.fb-btn {
+  display:block;
+  height: 50px;
+  width: 50px;
+  color: white;
+  position: relative;
+  top: 7.9rem;
+  left: 17rem;
+  background-color: #4267B2;
+  border-radius: 50%;
+  border: 1px solid #4267B2;
+  
+}
+.twitter-btn {
+  display:block;
+  height: 50px;
+  width: 50px;
+  color: white;
+  position: relative;
+  top: 4.8rem;
+  left: 22rem;
+  background-color: #1DA1F2;
+  border-radius: 50%;
+  border: 1px solid #1DA1F2;
+  
+}
+.flex-container p{
+  position: relative;
+  top: 10rem;
+  left: 15rem;
+  margin: 0;
+}
